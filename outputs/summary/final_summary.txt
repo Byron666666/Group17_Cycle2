@@ -1,0 +1,30 @@
+Group 14 Project Cycle 2 Final Summary
+
+Dataset:
+YRBS_2007.csv
+
+Research Questions:
+1. Is the proportion of students who felt sad or hopeless different from 0.30?
+2. Is the mean height of students different from 1.70 meters?
+
+Selected Variables:
+- Proportion analysis: SadOrHopeless
+- Mean analysis: HowTallAreYouWithoutShoesInMeters
+
+EDA Highlights:
+- The proportion of students who felt sad or hopeless was close to 0.30.
+- The height distribution was fairly concentrated, with only a small number of outliers.
+
+Inference Results:
+- Sample proportion = 0.3000
+- 95% CI for population proportion = (0.2924, 0.3077)
+- One-sample proportion test p-value = 0.992601
+- Decision: Fail to reject H0
+
+- Sample mean height = 1.6940 meters
+- 95% CI for population mean = (1.6923, 1.6958)
+- One-sample t-test p-value < 0.001
+- Decision: Reject H0
+
+Final Conclusion:
+The proportion of students who felt sad or hopeless was not significantly different from 0.30. However, the mean height of students was significantly different from 1.70 meters.
